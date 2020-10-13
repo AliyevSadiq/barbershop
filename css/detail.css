@@ -1,0 +1,140 @@
+.product-block{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.detail-image-block>img{
+    width: 460px;
+    height: 498px;
+}
+
+.detail-image-block>img:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.gallery-images{
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-images>img{
+    width: 140px;
+    height: 149px;
+    margin-right: 17px;
+}
+.gallery-images>img:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+
+.product-text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 660px;
+    width: 380px;
+}
+.product-text-header-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stock{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    text-transform: uppercase;
+}
+.vendor_code{
+    font-size: 14px;
+    line-height: 24px;
+    color: #aeaeae;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+}
+.product-text-description>p{
+    width: 380px;
+    height: 170px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    text-transform: uppercase;
+}
+
+.product-item-sell{
+    width: 187px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.product-item-sell>span{
+    width: 109px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    text-align: center;
+}
+.product-item-sell>a{
+    width: 78px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    text-align: center;
+}
+.product-item-sell>a:hover,.product-item-sell>a:active{
+    background-color: #653d15;
+}
+.product-selection-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.product-selection-block>h3{
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    text-transform: uppercase;
+}
+.product-selection-block>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.product-selection-block>ul>li{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "PT Sans",sans-serif;
+    list-style-image: url("../images/black-rhomb.png");
+}
